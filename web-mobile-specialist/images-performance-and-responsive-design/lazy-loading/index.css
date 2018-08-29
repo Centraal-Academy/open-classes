@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+.full-block {
+  position: relative;
+  height: 80%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemon {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.lazy-pokemon {
+  width: 300px;
+  filter: blur(5px);
+}

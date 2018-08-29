@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lazy Loading</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" async defer></script>
+</head>
+<body>
+  <div class="full-block">
+    Scroll this page
+  </div>
+  <h1>Pokemons</h1>
+  <div class="container">
+    <img class="pokemon lazy-pokemon" data-src="bulbasaur.jpg" data-src-lazy="https://img.pokemondb.net/artwork/bulbasaur.jpg">
+  </div>
+</body>
+</html>
