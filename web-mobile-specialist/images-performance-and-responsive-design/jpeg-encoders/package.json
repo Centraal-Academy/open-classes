@@ -1,0 +1,14 @@
+{
+  "name": "jpeg-encoders",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "encode:moz": "node ./encode-moz",
+    "encode:guetzil": "node ./encode-guetzil"
+  },
+  "devDependencies": {
+    "imagemin": "^6.0.0",
+    "imagemin-guetzli": "^1.0.0",
+    "imagemin-mozjpeg": "^7.0.0"
+  }
+}
